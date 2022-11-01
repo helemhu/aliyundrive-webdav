@@ -27,7 +27,7 @@ tokio = { version = "1.10.0", features = ["rt-multi-thread", "io-util", "net", "
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "local-time"] }
 url = "2.2.2"
-dav-server = { version = "0.3.0", default-features = false, features = ["hyper"] }
+dav-server = { version = "0.5.1", default-features = false, features = ["hyper"] }
 
 [features]
 default = ["rustls-tls", "atomic64"]

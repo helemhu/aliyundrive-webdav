@@ -331,9 +331,9 @@ dependencies = [
 
 [[package]]
 name = "dav-server"
-version = "0.3.2"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d6a0913c3fa9bacb9cb26b2ea80bf4cd41143e967fef15c85e8fb8dd4474d88"
+checksum = "138e825d2049c4412dfec6d752f6df7211c1ca7c13e79f275c2b477ff055b19b"
 dependencies = [
  "bytes",
  "futures-channel",
@@ -353,7 +353,7 @@ dependencies = [
  "time",
  "tokio",
  "url",
- "uuid",
+ "uuid 1.2.1",
  "xml-rs",
  "xmltree",
 ]
@@ -898,7 +898,7 @@ dependencies = [
  "skeptic",
  "smallvec",
  "thiserror",
- "uuid",
+ "uuid 0.8.2",
 ]
 
 [[package]]
@@ -1832,6 +1832,15 @@ name = "uuid"
 version = "0.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bc5cf98d8186244414c848017f0e2676b3fcb46807f6668a97dfe67359a3c4b7"
+dependencies = [
+ "getrandom",
+]
+
+[[package]]
+name = "uuid"
+version = "1.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "feb41e78f93363bb2df8b0e86a2ca30eed7806ea16ea0c790d757cf93f79be83"
 dependencies = [
  "getrandom",
 ]
